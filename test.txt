@@ -1,0 +1,38 @@
+---------------------------------------
+simpleblog - set up
+create virtual environment via gitbash (virtual environment name is virt, one can have other name as well)
+[python -m venv virt]  --this will take sometime
+
+to run virtual environment in windows
+[source virt/script/activate] / [.\vert\Scripts\activate]
+
+to run virtual environment in Mac
+[source bin/activate]
+
+- [pip install django] this will install django
+
+then start new project
+[python -m django startproject ablog(name of project)]
+or 
+[ django-admin.py startproject ablog]
+
+then migrate server and then run server
+migrate - [python manage.py migrate]
+run [python manage.py runserver]
+
+quit the server with CTRL-BREAK - not working
+
+Steps to do from the folder in this case ablog folder
+	- Run virutal environment [.\vert\Scripts\activate]
+	- Run server run [python manage.py runserver]
+
+
+
+----Git --------
+Created a branch named as Practice@Home
+
+sync code at local machice with the branch Practice@Home
+- git add . -->to add all the files and replace . with file name if any specific file need to be syncd
+- git status 
+- git commit -m "add comment"
+- git push origin Practice@Home
